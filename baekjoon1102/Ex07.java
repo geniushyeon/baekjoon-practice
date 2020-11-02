@@ -22,7 +22,8 @@ public class Ex07 {
 			if (income > cost) 
 				break;
 		}
-
+		System.out.println(i);
+		
 		scan.close();
 
 	}
