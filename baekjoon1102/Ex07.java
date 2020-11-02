@@ -19,10 +19,16 @@ public class Ex07 {
 			cost = a+cost;
 			int income = c*i;
 
-			if (income > cost) 
+			if (income > cost) {
+				System.out.println(i);
 				break;
+			}
+			
+			else if (c <= b) {
+				System.out.println(-1);
+				break;
+			}
 		}
-		System.out.println(i);
 		
 		scan.close();
 
