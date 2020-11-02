@@ -1,14 +1,14 @@
 package baekjoon;
 import java.util.Scanner;
-//1712 ¼ÕÀÍºÐ±âÁ¡
+//1712 ì†ìµë¶„ê¸°ì 
 public class Ex07 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.print("°íÁ¤ºñ¿ëÀ» ÀÔ·ÂÇÏ¼¼¿ä(´ÜÀ§: ¸¸¿ø): ");
+		System.out.print("ê³ ì •ë¹„ìš©ì„ ìž…ë ¥í•˜ì„¸ìš”(ë‹¨ìœ„: ë§Œì›): ");
 		int a = scan.nextInt();
-		System.out.print("°¡º¯ºñ¿ëÀ» ÀÔ·ÂÇÏ¼¼¿ä(´ÜÀ§: ¸¸¿ø): ");
+		System.out.print("ê°€ë³€ë¹„ìš©ì„ ìž…ë ¥í•˜ì„¸ìš”(ë‹¨ìœ„: ë§Œì›): ");
 		int b = scan.nextInt();
-		System.out.print("³ëÆ®ºÏ °¡°ÝÀ» ÀÔ·ÂÇÏ¼¼¿ä(´ÜÀ§: ¸¸¿ø): ");
+		System.out.print("ë…¸íŠ¸ë¶ ê°€ê²©ì„ ìž…ë ¥í•˜ì„¸ìš”(ë‹¨ìœ„: ë§Œì›): ");
 		int c = scan.nextInt();
 
 		int i=0;
@@ -22,12 +22,6 @@ public class Ex07 {
 			if (income > cost) 
 				break;
 		}
-		
-//		if (i > 210000000) 
-//			System.out.println(-1);
-//
-//		else
-//			System.out.println(i);
 
 		scan.close();
 
