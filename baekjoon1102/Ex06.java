@@ -1,11 +1,11 @@
 package baekjoon;
 import java.util.Scanner;
-//±¸±¸´Ü
+//êµ¬êµ¬ë‹¨
 public class Ex06 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.print("±¸±¸´ÜÀ» Ãâ·ÂÇÒ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.print("êµ¬êµ¬ë‹¨ì„ ì¶œë ¥í•  ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 		int n = scan.nextInt();
 		
 		for (int i=1; i<10; i++) {
